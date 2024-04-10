@@ -1,11 +1,8 @@
 import "./App.css";
-import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
-import { HomePage } from "./pages";
+import { Route, Routes, useNavigate } from "react-router-dom";
+import { HomePage, Login, Register, NotFoundPage } from "./pages";
 import Layout from "./components/Layout";
-import Login from "./pages/Registration/LogIn";
 import { ThemeProvider, createTheme } from "@mui/material";
-import NotFoundPage from "./pages/404";
-import Register from "./pages/Registration/Register";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
