@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledNotFound } from "./404.styled";
 import notFoundImage from "../../assets/404.svg";
 import { Button } from "@mui/material";

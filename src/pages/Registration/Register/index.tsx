@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledRegistration } from "../registration.styled";
 import RegistrationForm from "../../../components/RegistrationForm";
 
