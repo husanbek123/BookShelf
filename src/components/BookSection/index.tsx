@@ -131,7 +131,7 @@ export default function BookSection({ data }: Props) {
         <StyledBookSectionHeader>
           <div>
             <h1>
-              You've got <span>{data && data.length}</span> books
+              You've got <span>{data ? data.length : 0}</span> books
             </h1>
             <p>Your books today</p>
           </div>
